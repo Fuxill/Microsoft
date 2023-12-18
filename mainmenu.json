@@ -1,0 +1,198 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/menu/titre.png",
+            "posX" : -155,
+            "posY" : 30,
+            "width" : 315,
+            "height" : 52,
+            "alignment" : "top_center"
+        },
+         "title2":
+        {
+            "image" : "custommainmenu:textures/gui/menu/forme2.png",
+            "posX" : -25,
+            "posY" : -135,
+            "width" : 145,
+            "height" : 100,
+            "alignment" : "bottom_left"
+        }
+    },
+  
+    
+    "buttons":
+    {
+     
+       
+        
+        "Se connecter":
+        {
+            "text" : "Se connecter",
+            "texture" : "custommainmenu:textures/gui/menu/bouton.png",
+            "color" : 16750080,
+            "posX" : -100,
+            "posY" : 45,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "ConnectToServer",
+                "ip" : "play.draconium.ml"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "texture" : "custommainmenu:textures/gui/menu/bouton.png",
+            "color" : 16750080,
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "site":
+        {
+            "text" : "Site WEB (No work)",
+            "texture" : "custommainmenu:textures/gui/menu/bouton.png",
+            "color" : 16750080,
+            "posX" : -182,
+            "posY" : 135,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : ""
+           }
+        },
+        "discord":
+        {
+            "text" : "Discord",
+            "texture" : "custommainmenu:textures/gui/menu/bouton.png",
+            "color" : 16750080,
+            "posX" : 81,
+            "posY" : 135,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discordapp.com/invite/74PQCVG"
+        
+           }
+         },
+            
+        "options":
+        {
+            "text" : "Options",
+            "texture" : "custommainmenu:textures/gui/menu/bouton.png",
+            "color" : 16750080,
+            "posX" : -100,
+            "posY" : 70,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "texture" : "custommainmenu:textures/gui/menu/bouton.png",
+            "hovercolor" : 16750080,
+            "color" : 16750080,
+            "posX" : -50,
+            "posY" : 135,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "hovertext" : "choisis ta PTN de langue Roh",
+            "posX" : -208,
+            "posY" : -55,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 110,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Draconium © 2019. Tous Droits Reserves.",
+            "posX" : -275,
+            "posY" : -10,
+            "color" : 16750080,
+            "hovercolor" : 16750080,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 20000000,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : 16750080,
+            "alignment" : "top_center",
+            "texts" : "file:custommainmenu:textures/gui/menu/splashes.txt"
+        },
+        
+        "panorama":
+        {
+            "images" : "custommainmenu:textures/gui/menu/panorama/panorama%c.png",
+            "animate" : true,
+            "animationSpeed" : 3,
+            "blur" : true,
+            "gradient" : false
+        }
+    }
+}
