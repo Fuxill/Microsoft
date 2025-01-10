@@ -1,4 +1,4 @@
-﻿for($mg="mg en cours d'invocation...";$mg -eq "mg en cours d'invocation..." )
+﻿for($mg="mg en cours d'invocation....";$mg -eq "mg en cours d'invocation..." )
 
 {
 
