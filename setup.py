@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from setuphelpers import *
+from setuphelpers import *l
 import subprocess, os
 
 def install():
